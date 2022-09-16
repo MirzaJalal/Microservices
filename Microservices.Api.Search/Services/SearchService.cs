@@ -1,6 +1,4 @@
-﻿
-
-using Microservices.Api.Search.Interfaces;
+﻿using Microservices.Api.Search.Interfaces;
 using System.Linq;
 using System.Threading.Tasks;
 

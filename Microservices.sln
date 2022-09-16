@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservices.Api.Customers
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservices.Api.Orders", "Microservices.Api.Orders\Microservices.Api.Orders.csproj", "{3D16F350-E4C3-4CDE-A354-D7CF2023D738}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservices.Api.Search", "Microservices.Api.Search\Microservices.Api.Search.csproj", "{80E5BEF8-2568-416D-BD63-A876FF322F6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservices.Api.Search", "Microservices.Api.Search\Microservices.Api.Search.csproj", "{80E5BEF8-2568-416D-BD63-A876FF322F6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservices.Api.Products.Test", "Microservices.Api.Products.Test\Microservices.Api.Products.Test.csproj", "{D7B6A4C2-7404-4D68-9076-D36E5948F7BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservices.Api.Products.Test", "Microservices.Api.Products.Test\Microservices.Api.Products.Test.csproj", "{D7B6A4C2-7404-4D68-9076-D36E5948F7BF}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{8C49FEE9-33A4-41FB-AEFA-EBC51A0D31EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{D7B6A4C2-7404-4D68-9076-D36E5948F7BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7B6A4C2-7404-4D68-9076-D36E5948F7BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7B6A4C2-7404-4D68-9076-D36E5948F7BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C49FEE9-33A4-41FB-AEFA-EBC51A0D31EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C49FEE9-33A4-41FB-AEFA-EBC51A0D31EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C49FEE9-33A4-41FB-AEFA-EBC51A0D31EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C49FEE9-33A4-41FB-AEFA-EBC51A0D31EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -25,6 +25,7 @@ namespace Microservices.Api.Search
             services.AddScoped<IProductsService, ProductsService>();
             services.AddScoped<IOrdersService, OrdersService>();
             services.AddScoped<ICustomersService, CustomersService>();
+            //services.AddScoped<ISearchService, SearchService>();
             services.AddHttpClient("ProductsService", config =>
             {
                 config.BaseAddress = new Uri(Configuration["Services:Products"]);

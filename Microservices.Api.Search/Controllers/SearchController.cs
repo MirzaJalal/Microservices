@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 
-namespace ECommerce.Api.Search.Controllers
+namespace Microservices.Api.Search.Controllers
 {
     [ApiController]
     [Route("api/search")]

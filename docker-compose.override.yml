@@ -1,0 +1,28 @@
+version: '3.4'
+
+services:
+  microservices.api.customers:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "6002:80"
+
+  microservices.api.orders:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "6003:80"
+
+
+  microservices.api.products:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "6001:80"
+
+  microservices.api.search:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "6004:80"
+
